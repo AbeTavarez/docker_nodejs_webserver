@@ -1,0 +1,15 @@
+{
+  "name": "docker_nodejs_webserver",
+  "version": "1.0.0",
+  "description": "Docker NodeJS Web Server",
+  "main": "app.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abraham Tavarez",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "expess": "0.0.1-security"
+  }
+}
