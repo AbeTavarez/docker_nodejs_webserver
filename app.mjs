@@ -37,3 +37,12 @@ app.get('/', (req, res) => {
     </html>
   `);
 });
+
+app.post('/store-data', (req, res) => {
+  const newData = req.body.data;
+  console.log(newData);
+  data = newData;
+  res.redirect('/');
+});
+
+app.listen(5000, console.log(`App listening....`));
